@@ -1,0 +1,13 @@
+.soon {
+    margin: 0;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 20px;
+}
+
+.type {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    align-self: center;
+    color: #F8EFBA;
+}

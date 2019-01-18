@@ -1,0 +1,16 @@
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid #121212;
+    margin: 0;
+    box-shadow: 10px 8px #18314F;
+  
+  }
+
+nav{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.col-sl-3{
+    padding-right: 20px;
+}
