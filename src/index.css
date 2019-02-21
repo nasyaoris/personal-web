@@ -10,13 +10,14 @@ code {
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 50px;
-  background-color: #dff9fb;
+  background-color: #9cdde9;
   margin: auto;
 
 }
 
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Anton', sans-serif;
+  color: white;
 }
 
 p{
@@ -25,7 +26,7 @@ p{
 
 .box {
   padding-top: 100px;
-  padding-left: 400px;
+  padding-left: 33vw; 
   padding-bottom: 500px;
   position: fixed;
 }
@@ -35,6 +36,8 @@ p{
   border: 2px solid #121212;
   margin: 0;
   box-shadow: 10px 8px #18314F;
+  background-color: white;
+  margin-right: 2%
 
 }
 
@@ -74,4 +77,40 @@ p{
   background-image: -o-linear-gradient(top, #b29af8, #9174ed);
   background-image: linear-gradient(to bottom, #b29af8, #9174ed);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#b29af8, endColorstr=#9174ed);
 }
+@media screen and (max-width: 600px) {
 
+  .col-md-4 {
+    width: 30%;
+  }
+
+  .row {
+    padding-left: 5%;
+  }
+
+  .box {
+    height: 300px;
+    padding: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.white-square-container{
+  width: 100%;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 50px;
+  background-color: #9cdde9;
+  margin: auto;
+
+}
+
+.mood {
+  padding-bottom : 20%
+}
+
+h1 {
+  font-size: 2em
+}
+}

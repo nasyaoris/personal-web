@@ -11,3 +11,18 @@
     align-self: center;
     color: #F8EFBA;
 }
+
+@media only screen and (max-width: 600px) {
+    .type {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 70px;
+        align-self: center;
+        color: #F8EFBA;
+    }
+
+    .soon {
+        width: 100%;
+        padding: 10px 5px 5px;
+
+    }
+}

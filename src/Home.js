@@ -8,19 +8,19 @@ export class Home extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            background : "#c44569;"
+            background : "#d06a9b;"
         }
         this.ChangeColor = this.ChangeColor.bind(this);
     }
 
     ChangeColor() {
-        if (this.state.background == "#c44569;") {
+        if (this.state.background == "#d06a9b;") {
             this.setState({
                 background : "#F8EFBA"
             });
         }else{
             this.setState({
-                background : "#c44569;"
+                background : "#d06a9b;"
             })
         }
     }
@@ -28,8 +28,10 @@ export class Home extends React.Component {
     render () {
         document.body.style = 'background: '+this.state.background
         return (
-        <div>
+        <div className="home">
+            <div className="mood">
             <button type="button" className="btn btn-default" onClick={this.ChangeColor} >MOOD</button>
+            </div>
             <div className= "box">
              < Biodata />
            </div>

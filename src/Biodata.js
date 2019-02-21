@@ -40,17 +40,17 @@ export class Biodata extends React.Component{
                 }}
             /></h1>
 
-          <p>i am an undergraduate student from Information System </p>
+          <p>i am an undergraduate student majoring Information System </p>
           <p>hopefully developing web and explore business development</p>
           <div className="row">
           <div className="col-md-4 pp"><Link to="/portofolio"><Icon image="https://img.icons8.com/dusk/64/000000/unicorn.png" className="button s"/></Link></div>
           <div className="col-md-4 pp"><Link to="/about"><Icon image="https://img.icons8.com/dusk/64/000000/ghost.png" className="button g"  /></Link></div>
-          <div className="col-md-4 pp"><Link to="/experience"><Icon image="https://img.icons8.com/dusk/64/000000/theatre-mask.png" className="button d" /></Link></div>
+          <div className="col-md-4 pp"><Link to="/contact"><Icon image="https://img.icons8.com/dusk/64/000000/theatre-mask.png" className="button d" /></Link></div>
           </div>
           <div className = "row b">
             <div className="col-md-4 btn btn-default p">portofolio</div>
             <div className="col-md-4 btn btn-default p">about me</div>
-            <div className="col-md-4 btn btn-default p">experience</div>
+            <div className="col-md-4 btn btn-default p">contact</div>
           </div>
         </div>
         </div>

@@ -4,36 +4,31 @@ import PropTypes from 'prop-types';
 import './navbar.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import {Redirect} from 'react-router'
+import {Navbar , Nav, NavDropdown} from 'react-bootstrap'
 
-class Navbar extends React.Component {
+export class Menu extends React.Component {
   render() {
     return (
-    
-     <nav>
-      <div className = "container">
-      <div class="row">
-      <div class="col-sl-3">
-      <Link to="/"><button type="button" className="btn btn-default">Home</button></Link>
-      </div>
-      <div class="col-sl-3">
-      <Link to="/portofolio"><button type="button" className="btn btn-default" >Portofolio</button></Link>
-      </div>
-      <div class="col-sl-3">
-      <Link to="/about"><button type="button" className="btn btn-default"  >About me</button></Link>
-      </div>
-      <div class="col-sl-3"> 
-      <Link to="/experience"><button type="button" className="btn btn-default" >Experience</button></Link>
-      </div>
-      </div>
-      </div> 
-     </nav>
-     
+
+<Navbar style={{padding: "2%"}} expand="lg">
+<Navbar.Toggle aria-controls="basic-navbar-nav" />
+<Navbar.Collapse id="basic-navbar-nav">
+  <Nav className="mr-auto">
+    <Nav.Link href='/'><Link to='/'><button type="button" className="btn btn-default b">Home</button></Link></Nav.Link>
+    <Nav.Link href='/portofolio'><Link to='/portofolio'><button type="button" className="btn btn-default b" >Portofolio</button></Link></Nav.Link>
+    <Nav.Link href='/about'><Link to='/about'><button type="button" className="btn btn-default b" >About Me</button></Link></Nav.Link>
+    <Nav.Link href='/contact'><Link to='/contact'><button type="button" className="btn btn-default b" >Contact Me</button></Link></Nav.Link>
+  </Nav>
+</Navbar.Collapse>
+</Navbar>
+
+
      
     );
   }
 }
 
-export default Navbar;
+export default Menu;
 
 
 
