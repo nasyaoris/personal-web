@@ -9,7 +9,7 @@ Cara menjalankan website saya secara lokal :
 5. untuk backend dari contact clone dari repository https://gitlab.com/nasyaoris/personal-web
 6. di directory dari backend di tab terminal/cmd yang terpisah jalankan runserver 
 
-Link dari personal web saya : oristania.github.io
+Link dari personal web saya : https://oristania.github.io/
 
 Penjelasan mengenai web saya:
 1. di home untuk melihat ke halaman lain klik gambarnya
