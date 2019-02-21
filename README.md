@@ -11,6 +11,10 @@ Cara menjalankan website saya secara lokal :
 
 Link dari personal web saya : https://oristania.github.io/
 
+Api Backend :
+1. untuk menampilkan semua comment : http://nasyaoris.herokuapp.com/api/allComment
+2. untuk menambah comment : http://nasyaoris.herokuapp.com/api/newComment?message=
+
 Penjelasan mengenai web saya:
 1. di home untuk melihat ke halaman lain klik gambarnya
 
